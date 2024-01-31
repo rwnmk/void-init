@@ -1,2 +1,2 @@
 - shell
-    - set up direnv + asdf
+    - direnv
