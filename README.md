@@ -18,7 +18,7 @@ I highly recommend not using this for your own system but feel free to browse.
 ```
 mkdir -p $HOME/.local
 cd $HOME/.local
-git pull www.github.com/rwnmk/void-init
+git pull https://github.com/rwnmk/void-init.git
 cd void-init
 bash start_install.bash
 ```
