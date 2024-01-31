@@ -1,8 +1,12 @@
 # Void-init
 
+> [!WARNING]
+> This is a WIP.
+
 This is my personal set of system & dotfile init scripts for my specific desktop and laptop, in my preferred install location(s). This script is intended to be run once only after a system reinstall.
 
-I highly recommend not using this for your own system but feel free to browse.
+> [!CAUTION]
+> I highly recommend not using this for your own system but feel free to browse.
 
 > Desktop:
 > - AMD CPU
