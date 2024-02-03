@@ -3,6 +3,7 @@ set -euxo pipefail
 
 asdf_setup() {
     git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
+    # TODO: add asdf to path
     for plugin in "${VINIT_ASDF_PLUGINS[@]}"
     do
         asdf plugin add "$plugin"

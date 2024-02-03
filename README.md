@@ -36,18 +36,18 @@ Other actions requiring root (i.e. runit services, xorg graphics config, etc) ar
 - `start_install.bash`
     - `install_pkgs.bash`
         - package installer updates the system then installs all packages from void-init/packages
-        - then xbps-reconfigure called just in case
+        - xbps-reconfigure called in case of kernel-relevant package installations
     - `install_void-pkgs.bash`
-        - installs void-packages from git so nonfree repo packages can be installed
+        - installs void-packages from github repo so nonfree repo packages can be installed
         - any desired packages are then built & installed from void-init/nonfree-packages
     - `install_dev.bash`
-        - tells asdf to add and install plugins from VINIT_ASDF_PLUGINS variable
+        - tells asdf to add and install plugins from `VINIT_ASDF_PLUGINS` variable in `start_install.bash`
         - any other development-specific packages are installed here (i.e. containers)
     - `configure_dots.bash`
-        - git pull rwnmk/dotfiles
+        - git pull rwnmk/dotfiles (not yet public)
             - this repo includes a link-dots.bash script for tracking and updating linked files
-        - creates any required folders, then symlinks various user config files into $HOME and $XDG_CONFIG_HOME
-        - note that $XDG_USER_HOME itself is not linked, in order to skip including files which may contain private/transient information
+        - creates any required folders, then symlinks various user config files into `$HOME` and `$XDG_CONFIG_HOME`
+        - note that `$XDG_USER_HOME` itself is not linked, in order to skip including files which may contain private/transient information
 
 ## System setup
 
@@ -59,9 +59,9 @@ Other actions requiring root (i.e. runit services, xorg graphics config, etc) ar
 
 Run `startx` from tty to launch i3
 
-~/.xinitrc :: contains programs to run before the window manager session launches
+`~/.xinitrc` :: contains programs to run before the window manager session launches
 
-~/.config/i3/config.d/startup :: contains programs to run after the wm session launches
+`~/.config/i3/config.d/startup` :: contains programs to run after the wm session launches
 
 
 ### CLI & Development environment

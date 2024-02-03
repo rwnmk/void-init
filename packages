@@ -5,9 +5,11 @@
     clearine 
     CopyQ 
     curl 
+    cronie
     dbus-elogind 
     dex 
     dunst 
+    dmenu
     elogind 
     exa 
     exfat-utils 
@@ -15,13 +17,14 @@
     feh 
     ffmpeg 
     file-roller 
-    fish 
+    fish-shell
     flameshot 
     flatpak 
     fonts-droid-ttf 
     fuse-exfat 
     fzf 
     i3-gaps 
+    i3status
     i3status-rust 
     intel-ucode 
     intel-video-accel 
@@ -36,7 +39,6 @@
     nemo-fileroller 
     neovim 
     NetworkManager 
-    nmcli 
     ntfs-3g 
     p7zip 
     picom 
@@ -49,7 +51,6 @@
     skim 
     socklog 
     socklog-void 
-    spotify 
     starship 
     transmission-gtk 
     trash-cli 
