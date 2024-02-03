@@ -1,4 +1,4 @@
-#!/usr/bin/env bas
+#!/usr/bin/env bash
 set -euxo pipefail
 
 export INIT_DIR="$HOME/.local/void-init"
